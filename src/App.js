@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css'
 import Card from './card';
+import HOC from './Hoc.js';
 class App extends Component {
   constructor(props) {
     super(props);
@@ -51,4 +52,4 @@ class App extends Component {
     </div>);
   }
 }
-export default App;
+export default  HOC (App);
